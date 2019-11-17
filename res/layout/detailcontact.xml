@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+       
+    
+	<TextView
+        android:id="@+id/tvname"
+        android:text="Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+	
+	<TextView 
+        android:id="@+id/tvaddress1"
+        android:text="Alamat"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:layout_below="@+id/tvname"
+        />
+    
+    <TextView 
+        android:id="@+id/tvaddress2"
+        android:text="jalan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvaddress1"
+        android:layout_marginBottom="10dp"
+        />
+    
+   <TextView 
+        android:id="@+id/tvemail1"
+        android:text="Email"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvaddress2"
+        />
+    
+    <TextView 
+        android:id="@+id/tvemail2"
+        android:text="email@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvemail1"
+        android:layout_marginBottom="10dp"
+        />
+     <TextView 
+        android:id="@+id/tvphone1"
+        android:text="Nomor Handphone"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvemail2"
+        />
+    
+    <TextView 
+        android:id="@+id/tvphone2"
+        android:text="00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvphone1"
+        android:layout_marginBottom="10dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tvdob1"
+        android:text="Tempat/Tanggal Lahir"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvphone2"
+        />
+    
+    <TextView 
+        android:id="@+id/tvdob2"
+        android:text="ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdob1"
+        android:layout_marginBottom="10dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tvcreated1"
+        android:text="Dibuat"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdob2"
+        />
+    
+    <TextView 
+        android:id="@+id/tvcreated2"
+        android:text="0000-00-00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvcreated1"
+        android:layout_marginBottom="10dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tvupdated1"
+        android:text="Diperbarui"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvcreated2"
+        />
+    
+    <TextView 
+        android:id="@+id/tvupdated2"
+        android:text="0000-00-00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvupdated1"
+        />
+
+	
+
+    
+    
+    
+
+</RelativeLayout>
