@@ -26,10 +26,24 @@
             android:name="com.example.tugas201.detailcontact"
             android:label="@string/app_name" >
         </activity>
+        
         <activity
-            android:name="com.example.tugas201.tambahcontact"
-            android:label="@string/app_name" >
+            android:name=".tambahcontact"
+            android:label="tambahcontact"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tugas201.MainActivity" />
         </activity>
+        
+       <activity
+            android:name="com.example.tugas201.pesancontact"
+            android:label="pesan contac"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tugas201.MainActivity" />
+        </activity> 
     </application>
 
 </manifest>

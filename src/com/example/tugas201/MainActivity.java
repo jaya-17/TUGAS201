@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
         lv = (ListView) findViewById(R.id.list);
         btambahcontact = (Button) findViewById(R.id.btntambahcontact);
  
-        new GetContacts().execute();
+       //new GetContacts().execute();
         
         lv.setOnItemClickListener(new OnItemClickListener() {
 			@Override
@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
 				//Toast.makeText(MainActivity.this, "Tested!", Toast.LENGTH_SHORT).show();
 				HashMap<String, String> hm = contactList.get(arg2);
 				
-				Intent intent = new Intent(MainActivity.this, detailcontact.class);
+				Intent intent = new Intent(MainActivity.this, pesancontact.class);
 				intent.putExtra("id", hm.get("id"));
 				startActivity(intent);
 			}
@@ -190,6 +190,12 @@ public class MainActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+    
+    @Override
+    public void onResume() {
+    	super.onResume();
+    	new GetContacts().execute();
     }
     
 }
