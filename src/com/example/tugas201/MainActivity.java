@@ -21,6 +21,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.Button;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
@@ -29,6 +30,8 @@ public class MainActivity extends Activity {
     private String TAG = MainActivity.class.getSimpleName();
     private ProgressDialog pDialog;
     private ListView lv;
+    private Button btambahcontact;
+    
  
     // URL to get contacts JSON
     private static String url = "http://apilearning.totopeto.com/contacts/";
@@ -43,6 +46,7 @@ public class MainActivity extends Activity {
         contactList = new ArrayList<HashMap<String, String>>();
         
         lv = (ListView) findViewById(R.id.list);
+        btambahcontact = (Button) findViewById(R.id.btntambahcontact);
  
         new GetContacts().execute();
         
@@ -56,6 +60,15 @@ public class MainActivity extends Activity {
 				
 				Intent intent = new Intent(MainActivity.this, detailcontact.class);
 				intent.putExtra("id", hm.get("id"));
+				startActivity(intent);
+			}
+		});
+        
+        btambahcontact.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, tambahcontact.class);
 				startActivity(intent);
 			}
 		});

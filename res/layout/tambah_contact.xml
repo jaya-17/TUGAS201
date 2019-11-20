@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/tvnama"
+        android:text="Nama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        />
+    
+    <EditText 
+        android:id="@+id/etnama"
+        android:hint="masukkan nama anda"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvnama"
+        />
+    
+     <TextView 
+        android:id="@+id/tvalamat"
+        android:text="Alamat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etnama"
+
+        />
+    
+    <EditText 
+        android:id="@+id/etalamat"
+        android:hint="masukkan alamat anda"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvalamat"
+        />
+    
+    <TextView 
+        android:id="@+id/tvemail"
+        android:text="Email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etalamat"
+
+        />
+    
+    <EditText 
+        android:id="@+id/etemail"
+        android:hint="masukkan email anda"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvemail"
+        />
+    
+    
+      <TextView 
+        android:id="@+id/tvhp"
+        android:text="Nomor Handphone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etemail"
+
+        />
+    
+    <EditText 
+        android:id="@+id/ethp"
+        android:hint="masukkan nomor hp anda"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvhp"
+        />
+    
+      <TextView 
+        android:id="@+id/tvdob"
+        android:text="Tanggal Lahir"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ethp"
+
+        />
+    
+    <EditText 
+        android:id="@+id/etdob"
+        android:hint="masukkan tanggal lahir anda"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdob"
+        />
+    
+     <Button 
+        android:id="@+id/btnsimpan"
+        android:text="simpan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etdob"
+        />
+    
+    
+    
+
+</RelativeLayout>

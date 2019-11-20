@@ -24,29 +24,42 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080011;
-        public static final int email=0x7f08000f;
-        public static final int list=0x7f080000;
-        public static final int mobile=0x7f080010;
-        public static final int name=0x7f08000e;
-        public static final int tvaddress1=0x7f080002;
-        public static final int tvaddress2=0x7f080003;
-        public static final int tvcreated1=0x7f08000a;
-        public static final int tvcreated2=0x7f08000b;
-        public static final int tvdob1=0x7f080008;
-        public static final int tvdob2=0x7f080009;
-        public static final int tvemail1=0x7f080004;
-        public static final int tvemail2=0x7f080005;
-        public static final int tvname=0x7f080001;
-        public static final int tvphone1=0x7f080006;
-        public static final int tvphone2=0x7f080007;
-        public static final int tvupdated1=0x7f08000c;
-        public static final int tvupdated2=0x7f08000d;
+        public static final int action_settings=0x7f08001d;
+        public static final int btnsimpan=0x7f08001c;
+        public static final int btntambahcontact=0x7f080000;
+        public static final int email=0x7f080010;
+        public static final int etalamat=0x7f080015;
+        public static final int etdob=0x7f08001b;
+        public static final int etemail=0x7f080017;
+        public static final int ethp=0x7f080019;
+        public static final int etnama=0x7f080013;
+        public static final int list=0x7f080001;
+        public static final int mobile=0x7f080011;
+        public static final int name=0x7f08000f;
+        public static final int tvaddress1=0x7f080003;
+        public static final int tvaddress2=0x7f080004;
+        public static final int tvalamat=0x7f080014;
+        public static final int tvcreated1=0x7f08000b;
+        public static final int tvcreated2=0x7f08000c;
+        public static final int tvdob=0x7f08001a;
+        public static final int tvdob1=0x7f080009;
+        public static final int tvdob2=0x7f08000a;
+        public static final int tvemail=0x7f080016;
+        public static final int tvemail1=0x7f080005;
+        public static final int tvemail2=0x7f080006;
+        public static final int tvhp=0x7f080018;
+        public static final int tvnama=0x7f080012;
+        public static final int tvname=0x7f080002;
+        public static final int tvphone1=0x7f080007;
+        public static final int tvphone2=0x7f080008;
+        public static final int tvupdated1=0x7f08000d;
+        public static final int tvupdated2=0x7f08000e;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int detailcontact=0x7f030001;
         public static final int list_item=0x7f030002;
+        public static final int tambah_contact=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f070000;
